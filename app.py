@@ -28,5 +28,6 @@ def bcorps():
         return json_data()
     return country
 
-app.run(debug= True)
+# app.run(debug= True)
+app.run()
 
