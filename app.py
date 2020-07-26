@@ -11,9 +11,9 @@ def home():
         return jsonify({
             'author': 'Pranav Bhatia',
             'author_linkedin': 'https://www.linkedin.com/in/bhatiapranav/',
-            'base_url': '',
+            'base_url': 'https://bcorps.herokuapp.com/  ',
             'project_name': 'B Corps - API',
-            'project_url': ''
+            'project_url': 'https://github.com/PRANAVBHATIA1999/B-Corps-API'
         })
 
 @app.route('/bcorps', methods = ['GET'])
