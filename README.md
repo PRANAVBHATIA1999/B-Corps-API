@@ -5,7 +5,6 @@
 ## What is B Corps API?
 B corps API is for any application which needs  data like company name, industry and the location of a B corp certified company across the globe.
 
-
 ## URL 
 
 ```
@@ -18,7 +17,6 @@ Just do a GET request on the API URL.
 GET: http://127.0.0.1:5000/bcorps?country=<Country Name>
 ```
 
-## Routes
 ## Arguments
 ```
 <country name>
@@ -32,17 +30,17 @@ JSON
 ## Example
 ```
 GET: http://127.0.0.1:5000/bcorps?country=India
-#RE
+# This will return all B Corps companies listed in India in JSON format.
 ```
 
 ```
 GET: http://127.0.0.1:5000/bcorps
-#
+# This will return the basic data of B Corps comapnies across the globe.
 ```
 
 ```
-GET: http://127.0.0.1:5000/bcorps?country=In
-#
+GET: http://127.0.0.1:5000/bcorps?country=US
+# This will return the basic data of B corps companies in the United States.
 ```
 
 ## Enhancements
