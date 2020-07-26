@@ -28,6 +28,5 @@ def bcorps():
         return json_data()
     return country
 
-# app.run(debug= True)
-app.run()
-
+if __name__ == '__main__':
+    app.run(debug=False)
