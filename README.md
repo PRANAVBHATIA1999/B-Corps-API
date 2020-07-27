@@ -8,13 +8,13 @@ B corps API is for any application which needs  data like company name, industry
 ## URL 
 
 ```
-GET: https://bcorps.herokuapp.com/
+GET: https://bcorps.herokuapp.com/bcorps
 ```
 
 ## Usage
 Just do a GET request on the API URL.
 ```
-GET: https://bcorps.herokuapp.com//bcorps?country=<Country Name>
+GET: https://bcorps.herokuapp.com/bcorps?country=<Country Name>
 ```
 
 ## Arguments
