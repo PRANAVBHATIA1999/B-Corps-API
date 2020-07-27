@@ -39,7 +39,7 @@ GET: https://bcorps.herokuapp.com/bcorps
 ```
 
 ```
-GET: http://127.0.0.1:5000/bcorps?country=US
+GET: https://bcorps.herokuapp.com/bcorps?country=US
 # This will return the basic data of B corps companies in the United States.
 ```
 
